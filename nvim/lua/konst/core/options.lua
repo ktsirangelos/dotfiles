@@ -4,6 +4,10 @@ vim.o.shiftwidth = 2
 vim.o.expandtab = true
 vim.o.autoindent = true
 
+-- spell check
+vim.o.spell = true
+vim.o.spelllang = "en_us"
+
 -- set highlight on search
 vim.o.hlsearch = false
 
