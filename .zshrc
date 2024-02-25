@@ -70,7 +70,7 @@ zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git vi-mode) 
+plugins=(vi-mode zsh-autosuggestions zsh-syntax-highlighting) 
 
 source $ZSH/oh-my-zsh.sh
 
@@ -98,15 +98,27 @@ bindkey -M viins 'jk' vi-cmd-mode
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias zshconfig="nvim ~/.zshrc"
 alias tmuxconfig="nvim ~/.tmux.conf"
+alias zshconfig="nvim ~/.zshrc"
 
 alias portal="cd ~/Documents/AIMMS/Repositories/portal/"
 alias repo="cd ~/Documents/Repositories/"
 
-alias nv="nvim"
-alias cl="clear"
 alias ex="exit"
+alias cl="clear"
+alias nv="nvim"
 alias tm="tmux"
+
+alias g="git"
+alias ga="git add"
+alias gaa="git add --all"
+alias gb='git branch'
+alias gba='git branch --all'
+alias gbd='git branch --delete'
+alias gbD='git branch --delete --force'
+alias gcmsg="git commit --message"
+alias gp="git push"
+alias gst='git status'
+alias gsw='git switch'
+alias gswc='git switch --create'
+alias gswm='git switch $(git_main_branch)'
