@@ -81,8 +81,6 @@ plugins=(vi-mode zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
-bindkey -M viins 'jk' vi-cmd-mode
-
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
