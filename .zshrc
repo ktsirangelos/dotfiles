@@ -130,5 +130,8 @@ alias gst='git status'
 alias gsw='git switch'
 alias gswc='git switch --create'
 
+# Skroutz
+alias stg="ssh -T wowbagger@vms.skroutz.gr"
+
 #
 eval "$(rbenv init - zsh)"

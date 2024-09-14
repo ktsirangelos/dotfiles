@@ -14,3 +14,6 @@ keymap("n", "<leader>rA", ":%s/", { desc = "[R]eplace [A]ll" })
 -- move 1/2 page up/down and center the cursor on the screen
 keymap("n", "<C-d>", "<C-d>zz", default_opts)
 keymap("n", "<C-u>", "<C-u>zz", default_opts)
+
+-- copy absolute path
+keymap("n", "<Leader>cp", ":let @+=expand('%:p')<CR>", { desc = "[C]opy [P]ath" })
