@@ -132,6 +132,7 @@ alias gswc='git switch --create'
 
 # Skroutz
 alias stg="ssh -T wowbagger@vms.skroutz.gr"
+alias yo="cd ~/Repositories/yogurt/"
 
 #
 eval "$(rbenv init - zsh)"
