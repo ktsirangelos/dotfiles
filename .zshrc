@@ -118,8 +118,10 @@ alias gba='git branch --all'
 alias gc='git commit'
 alias gcf='git commit --fixup'
 alias gcfh='git commit --fixup HEAD'
+alias gchp='git cherry-pick'
 alias gcmsg='git commit --message'
 alias gd='git diff'
+alias gfa='git fetch --all'
 alias gl='git log'
 alias gp='git push'
 alias gpl='git pull'
@@ -132,7 +134,7 @@ alias gswc='git switch --create'
 
 # Skroutz
 alias stg="ssh -T wowbagger@vms.skroutz.gr"
-alias yo="cd ~/Repositories/yogurt/"
+alias yo="cd ~/Repositories/skroutz/yogurt/"
 
 #
 eval "$(rbenv init - zsh)"
